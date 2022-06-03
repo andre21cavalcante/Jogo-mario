@@ -20,6 +20,17 @@
     animation: pipe-animation 2s infinite linear;
 }
 
+.mario {
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+}
+
+.birds{
+    position: absolute;
+    animation: pipe-animation 5s infinite linear;
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
